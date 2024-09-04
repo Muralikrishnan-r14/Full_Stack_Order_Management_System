@@ -1,0 +1,40 @@
+
+#Create the Database
+sql
+CREATE DATABASE food;
+USE food;
+
+
+#Create the Food Table
+sql
+CREATE TABLE Food (
+    Food_id INT(16) NOT NULL PRIMARY KEY,
+    Foodname VARCHAR(18) NOT NULL,
+    Food_size VARCHAR(18) NOT NULL,
+    prize INT(36) NOT NULL
+);
+
+
+#Create the Employee Table
+sql
+CREATE TABLE Employee (
+    Emp_id INT(23) NOT NULL PRIMARY KEY,
+    ename VARCHAR(43) NOT NULL,
+    emp_g VARCHAR(43) NOT NULL,
+    eage INT(3) NOT NULL,
+    emp_phone VARCHAR(18) NOT NULL,
+    pwd VARCHAR(18) NOT NULL
+);
+
+
+#Create the Orderfood Table
+sql
+CREATE TABLE Orderfood (
+    OrderF_id INT(16) NOT NULL PRIMARY KEY,
+    C_id VARCHAR(17) NOT NULL,
+    Emp_id VARCHAR(17) NOT NULL,
+    Food_id INT(17) NOT NULL,
+    Food_qty VARCHAR(17) NOT NULL,
+    Total_price VARCHAR(17) NOT NULL
+);
+
