@@ -2,7 +2,7 @@
 *.py linguist-language=true
 
 # MySQL files
-*.sql linguist-language=true
+*.sql linguist-language=false
 
 # C# files (if you have any in your project)
 *.cs linguist-language=false
