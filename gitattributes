@@ -1,5 +1,5 @@
 # Python files
-*.py linguist-language=Python
+*.py linguist-language= false
 
 # MySQL files
 *.sql linguist-language=SQL
