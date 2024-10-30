@@ -1,0 +1,17 @@
+# Python files
+*.py linguist-language=Python
+
+# MySQL files
+*.sql linguist-language=SQL
+
+# C# files (if you have any in your project)
+*.cs linguist-language=false
+
+# JavaScript files (if you have any in your project)
+*.js linguist-detectable=false
+
+# HTML files (if you have any in your project)
+*.html linguist-detectable=false
+
+# XML files (if you have any in your project)
+*.xml linguist-detectable=false
