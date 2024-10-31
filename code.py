@@ -144,7 +144,7 @@ def View():
         for x in res:
             print(x)
 
-    # print("The Food details are as follows : ")
+    # print("The Food details are as follows :")
     # print("(Custoemer ID, Food Name, quatity, Cost )")
     # for x in res:
     # print(x)
