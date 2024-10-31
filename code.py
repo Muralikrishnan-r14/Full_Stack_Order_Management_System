@@ -34,7 +34,7 @@ def Customer():
     mydb.commit()
 
 
-# Customer Table : C_id (PK	C_name	C_phonenum	Payment_method (Cash/Credit Card)	Payment_status (Paid/Unpaid)	Email	Emp_id (FK)	OrderF_id (FK)	date
+# Customer Table :- C_id (PK	C_name	C_phonenum	Payment_method (Cash/Credit Card)	Payment_status (Paid/Unpaid)	Email	Emp_id (FK)	OrderF_id (FK)	date
 
 
 def Employee():
@@ -73,7 +73,7 @@ def Food():
     mydb.commit()
 
 
-# Food_id (PK Food_name, Food_size, price)
+# Food_id (PK	Foodname	Food_size	price
 
 
 def OrderFood():
@@ -144,7 +144,7 @@ def View():
         for x in res:
             print(x)
 
-    # print("The Food details are as follows :")
+    # print("The Food details are as follows : ")
     # print("(Custoemer ID, Food Name, quatity, Cost )")
     # for x in res:
     # print(x)
