@@ -73,7 +73,7 @@ def Food():
     mydb.commit()
 
 
-# Food_id (PK Food_name	Food_size	price)
+# Food_id (PK Food_name, Food_size, price)
 
 
 def OrderFood():
