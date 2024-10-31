@@ -34,7 +34,7 @@ def Customer():
     mydb.commit()
 
 
-# Customer Table :- C_id (PK	C_name	C_phonenum	Payment_method (Cash/Credit Card)	Payment_status (Paid/Unpaid)	Email	Emp_id (FK)	OrderF_id (FK)	date
+# Customer Table : C_id (PK	C_name	C_phonenum	Payment_method (Cash/Credit Card)	Payment_status (Paid/Unpaid)	Email	Emp_id (FK)	OrderF_id (FK)	date
 
 
 def Employee():
