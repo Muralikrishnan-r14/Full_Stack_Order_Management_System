@@ -1,8 +1,8 @@
 # Python files
-*.py linguist-language=true
+*.py linguist-language=false
 
 # MySQL files
-*.sql linguist-language=SQL
+*.sql linguist-language=true
 
 # C# files (if you have any in your project)
 *.cs linguist-language=false
