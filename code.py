@@ -193,7 +193,7 @@ def MenuSet():
         View()
 
     else:
-        print("Enter correct choice. . . ")
+        print("Enter correct choice. . .")
 
 
 def runAgain():
