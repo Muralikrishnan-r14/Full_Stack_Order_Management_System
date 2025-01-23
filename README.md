@@ -1,4 +1,4 @@
-# Food Ordering Management System
+# Food Order Management System
 
 📑 Overview
 
